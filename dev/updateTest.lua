@@ -1,14 +1,14 @@
 -- @description Testing Update function
 -- @reaScript Name update Test Script
 -- @author mittim88
--- @version 4.0.0
+-- @version 1.0.0
 -- @provides 
 --      /dev/*.lua
---   /TC_Helper/data/pdf/*.pdf
---   /TC_Helper/data/keyMap/*.ReaperKeyMap
---   /TC_Helper/data/images/*.png
---   /TC_Helper/data/logo/*.png
---   /TC_Helper/data/projectTemplate/*.RPP
+--   /dev/pdf/*.pdf
+--   /dev/keyMap/*.ReaperKeyMap
+--   /dev/images/*.png
+--   /dev/logo/*.png
+--   /dev/projectTemplate/*.RPP
 
 
 
