@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="TestPack" commit="0eb7edfaa5d68d9a73fb79e239a3276c06b0a491">
+<index version="1" name="TestPack" commit="07c1f47afc413e7e86ac8f41781594c3f23fc995">
   <category name="dev">
-    <reapack name="updateTest.lua" type="script" desc="Testing Update function">
-      <version name="4.0.0" author="mittim88" time="2025-03-08T18:54:44Z">
-        <source main="main">https://github.com/mittim88/TestRepo/raw/3ce08476126c0c20dcb86105fedf0570c85d2c40/dev/updateTest.lua</source>
+    <reapack name="test2.lua" type="script" desc="testing script">
+      <version name="5.0.0" author="mittim88" time="2025-03-08T22:26:24Z">
+        <source main="main">https://github.com/mittim88/TestRepo/raw/abf608b4dc27d6b25894d5e1910911f612a205c6/dev/test2.lua</source>
       </version>
-      <version name="1.0.0" author="mittim88" time="2025-03-08T22:06:10Z">
-        <source main="main">https://github.com/mittim88/TestRepo/raw/56cba08b117947cd8615a07b5f20b4e4a1b6d400/dev/updateTest.lua</source>
-      </version>
-      <version name="5.0.0" author="mittim88" time="2025-03-08T22:11:22Z">
-        <source main="main">https://github.com/mittim88/TestRepo/raw/0eb7edfaa5d68d9a73fb79e239a3276c06b0a491/dev/updateTest.lua</source>
+      <version name="6.0.0" author="mittim88" time="2025-03-08T22:27:01Z">
+        <source main="main">https://github.com/mittim88/TestRepo/raw/07c1f47afc413e7e86ac8f41781594c3f23fc995/dev/test2.lua</source>
       </version>
     </reapack>
   </category>
