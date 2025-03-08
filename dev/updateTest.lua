@@ -4,7 +4,6 @@
 -- @version 4.0.0
 -- @provides 
 --      /dev/*.lua
---      /dev/*.pdf
 --   /TC_Helper/data/pdf/*.pdf
 --   /TC_Helper/data/keyMap/*.ReaperKeyMap
 --   /TC_Helper/data/images/*.png
