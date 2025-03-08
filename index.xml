@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="TestPack" commit="5491ecee1d09b0fe0265c4f72384d0eff3eaf304">
+<index version="1" name="TestPack" commit="eecf24a08acc955c485d1208d49fabab35e04624">
   <category name="dev">
     <reapack name="test2.lua" type="script" desc="testing script">
       <version name="5.0.0" author="mittim88" time="2025-03-08T22:26:24Z">
@@ -10,6 +10,9 @@
       </version>
       <version name="7.0.0" author="mittim88" time="2025-03-08T22:29:21Z">
         <source main="main">https://github.com/mittim88/TestRepo/raw/5491ecee1d09b0fe0265c4f72384d0eff3eaf304/dev/test2.lua</source>
+      </version>
+      <version name="8.0.0" author="mittim88" time="2025-03-08T22:36:28Z">
+        <source main="main">https://github.com/mittim88/TestRepo/raw/eecf24a08acc955c485d1208d49fabab35e04624/dev/test2.lua</source>
       </version>
     </reapack>
   </category>
