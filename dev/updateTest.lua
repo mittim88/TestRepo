@@ -1,7 +1,7 @@
 -- @description Testing Update function
 -- @reaScript Name update Test Script
 -- @author mittim88
--- @version 1.0.0
+-- @version 5.0.0
 -- @provides 
 --      /dev/*.lua
 --   /dev/pdf/*.pdf
