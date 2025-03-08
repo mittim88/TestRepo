@@ -1,5 +1,5 @@
--- @description Testing Update function
--- @reaScript Name update Test Script
+-- @description testing script
+-- @reaScript Name TestScript
 -- @author mittim88
 -- @version 5.0.0
 -- @provides 
