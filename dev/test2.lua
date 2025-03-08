@@ -1,14 +1,14 @@
 -- @description testing script
 -- @reaScript Name TestScript
 -- @author mittim88
--- @version 7.0.0
+-- @version 8.0.0
 -- @provides 
 --      /dev/*.lua
---   /dev/*.pdf
---   /dev/*.ReaperKeyMap
---   /dev/*.png
---   /dev/*.png
---   /dev/*.RPP
+--   /dev/pdf/*.pdf
+--   /dev/keyMap/*.ReaperKeyMap
+--   /dev/logo/*.png
+--   /dev/images/*.png
+--   /dev/projectTemplate/*.RPP
 
 
 
