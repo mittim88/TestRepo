@@ -3,7 +3,7 @@
 -- @author mittim88
 -- @version 8.0.0
 -- @provides 
---      /dev/*.lua
+--   /dev/*.lua
 --   /dev/pdf/*.pdf
 --   /dev/keyMap/*.ReaperKeyMap
 --   /dev/logo/*.png
