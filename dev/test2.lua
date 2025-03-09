@@ -1,7 +1,7 @@
 -- @description testing script
 -- @reaScript Name TestScript
 -- @author mittim88
--- @version 8.0.0
+-- @version 9.0.0
 -- @provides 
 --   /dev/*.lua
 --   /dev/pdf/*.pdf
