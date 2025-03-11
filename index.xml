@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="TestPack" commit="ff03b992b4dd832b7104257d03ba0b629cc4d493">
+<index version="1" name="TestPack" commit="3c7886deb3b2527e81ecf00d1ca08a15b01fcee1">
   <category name="dev">
     <reapack name="test2.lua" type="script" desc="testing script">
       <version name="5.0.0" author="mittim88" time="2025-03-08T22:26:24Z">
@@ -52,6 +52,19 @@
         <source file="images/Top Release.png">https://github.com/mittim88/TestRepo/raw/ff03b992b4dd832b7104257d03ba0b629cc4d493/dev/images/Top%20Release.png</source>
         <source file="images/Top.png">https://github.com/mittim88/TestRepo/raw/ff03b992b4dd832b7104257d03ba0b629cc4d493/dev/images/Top.png</source>
         <source file="projectTemplate/TCHelper Project.RPP">https://github.com/mittim88/TestRepo/raw/ff03b992b4dd832b7104257d03ba0b629cc4d493/dev/projectTemplate/TCHelper%20Project.RPP</source>
+      </version>
+      <version name="2.1.0" author="mittim88" time="2025-03-11T11:38:12Z">
+        <source main="main">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/test2.lua</source>
+        <source file="pdf/TCHelper Manual.pdf">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/pdf/TCHelper%20Manual.pdf</source>
+        <source file="keyMap/TCHelper_Actions.ReaperKeyMap">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/keyMap/TCHelper_Actions.ReaperKeyMap</source>
+        <source file="logo/App Icon512x512.png">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/logo/App%20Icon512x512.png</source>
+        <source file="logo/LogoBig_App1024x768.png">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/logo/LogoBig_App1024x768.png</source>
+        <source file="images/Cuelist.png">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/images/Cuelist.png</source>
+        <source file="images/Flash.png">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/images/Flash.png</source>
+        <source file="images/Temp.png">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/images/Temp.png</source>
+        <source file="images/Top Release.png">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/images/Top%20Release.png</source>
+        <source file="images/Top.png">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/images/Top.png</source>
+        <source file="projectTemplate/TCHelper Project.RPP">https://github.com/mittim88/TestRepo/raw/3c7886deb3b2527e81ecf00d1ca08a15b01fcee1/dev/projectTemplate/TCHelper%20Project.RPP</source>
       </version>
     </reapack>
   </category>
