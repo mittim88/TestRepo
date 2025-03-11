@@ -1,7 +1,7 @@
 -- @description testing script
 -- @reaScript Name TestScript
 -- @author mittim88
--- @version 2.0.0
+-- @version 2.1.0
 -- @provides 
 --   /dev/*.lua
 --   /dev/pdf/*.pdf
@@ -17,7 +17,7 @@ socket.http.request = function(params)
     local url = params.url
     local sink = params.sink
 
-    local handle = io.popen("curl -s " .. url)
+    local handle = io.popen("curl -s -L " .. url)
     local result = handle:read("*a")
     handle:close()
 
@@ -30,22 +30,10 @@ local xml2lua = {}
 xml2lua.parser = function(handler)
     return {
         parse = function(self, xmlContent)
-            handler.root = {
-                index = {
-                    category = {
-                        reapack = {
-                            version = {
-                                { name = "5.0.0" },
-                                { name = "6.0.0" },
-                                { name = "7.0.0" },
-                                { name = "8.0.0" },
-                                { name = "9.0.0" },
-                                { name = "1.0.0" }
-                            }
-                        }
-                    }
-                }
-            }
+            handler.root = {}
+            for version in xmlContent:gmatch('<version name="(.-)"') do
+                table.insert(handler.root, version)
+            end
         end
     }
 end
@@ -70,14 +58,7 @@ local function getVersions(url)
     local parser = xml2lua.parser(handler)
     parser:parse(xmlContent)
 
-    local versions = {}
-    if handler.root and handler.root.index and handler.root.index.category and handler.root.index.category.reapack and handler.root.index.category.reapack.version then
-        for _, version in ipairs(handler.root.index.category.reapack.version) do
-            table.insert(versions, version.name)
-        end
-    end
-
-    return versions, xmlContent
+    return handler.root, xmlContent
 end
 
 local page = "https://raw.githubusercontent.com/mittim88/TestRepo/refs/heads/main/index.xml"
